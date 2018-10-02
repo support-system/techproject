@@ -55,6 +55,8 @@ if ( ( isset( $zerif_ourteam_show ) && $zerif_ourteam_show != 1 ) || is_customiz
 
 }
 
+
+
 	/* TESTIMONIALS */
 
 	$zerif_testimonials_show = get_theme_mod( 'zerif_testimonials_show' );
@@ -62,6 +64,9 @@ if ( ( isset( $zerif_ourteam_show ) && $zerif_ourteam_show != 1 ) || is_customiz
 if ( ( isset( $zerif_testimonials_show ) && $zerif_testimonials_show != 1 ) || is_customize_preview() ) {
 
 	get_template_part( 'sections/testimonials' );
+	
+	
+	
 
 }
 

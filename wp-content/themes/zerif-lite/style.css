@@ -7182,3 +7182,12 @@ h6 {font-family: 'Open Sans', sans-serif;}
     right: 0px;}
 #footer, .copyright{padding:0px!important}
 .blocks:after{content:"";clear:both;    display: block;}
+.sectionA ul {display: block;list-style: none;}
+.sectionA .widget li:before{display:none}
+.sectionA ul li{ 
+    font-size: 13px;
+    margin: 5px 0;
+   
+}
+.sectionA ul li a{display: block;list-style: none;}
+

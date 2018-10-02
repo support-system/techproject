@@ -14,6 +14,7 @@ if ( ( isset( $zerif_bigtitle_show ) && $zerif_bigtitle_show != 1 ) || is_custom
 
 }
 
+
 ?>
 
 </header> <!-- / END HOME SECTION  -->
@@ -55,6 +56,7 @@ if ( ( isset( $zerif_bigtitle_show ) && $zerif_bigtitle_show != 1 ) || is_custom
 		get_template_part( 'sections/our_team' );
 
 	}
+	
 
 	/* TESTIMONIALS */
 
