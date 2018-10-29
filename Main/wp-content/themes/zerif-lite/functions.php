@@ -91,7 +91,7 @@ function zerif_setup() {
 		$zerif_default_image = get_template_directory_uri() . '/images/bg.jpg';
 	}
 	add_theme_support(
-		'custom-background',
+		'custom-background-none',
 		apply_filters(
 			'zerif_custom_background_args',
 			array(
@@ -1001,30 +1001,32 @@ if ( ! class_exists( 'zerif_ourfocus' ) && zerif_check_if_old_version_of_theme()
 		/**
 		 * Create the widget
 		 */
+		 
 		function widget( $args, $instance ) {
-
+			
+			
 			echo $args['before_widget'];
 
-			echo '<div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">';
+			echo '<div class="col-lg-4 col-sm-4 focus-box" data-scrollreveal="enter left after 0.15s over 1s">';
 
 			if ( ! empty( $instance['image_uri'] ) && ( preg_match( '/(\.jpg|\.png|\.jpeg|\.gif|\.bmp)$/', $instance['image_uri'] ) ) ) {
 				if ( ! empty( $instance['link'] ) ) {
 
-					echo '<a href="' . esc_url( $instance['link'] ) . '" class="service-icon">';
+					//echo '<a href="' . esc_url( $instance['link'] ) . '" class="service-icon">';
 
 					if ( ! empty( $instance['title'] ) ) {
 
-						echo '<span class="sr-only">';
+						/*echo '<span class="sr-only">';
 						printf(
-							/* Translators: %s: widget title */
+							// Translators: %s: widget title
 							__( 'Go to %s', 'zerif-lite' ),
 							apply_filters( 'widget_title', $instance['title'] )
 						);
-						echo '</span>';
+						echo '</span>';*/
 
 					}
 					echo '<i class="pixeden" style="background:url(' . esc_url( $instance['image_uri'] ) . ') no-repeat center;width:100%; height:100%;"></i>';
-					echo '</a>';
+					//echo '</a>';
 
 				} else {
 

@@ -178,6 +178,7 @@ jQuery( window ).load(
 				var navigationHeight;
 				var hash   = this.hash;
 				var idName = hash.substring( 1 );    // get id name
+				
 				var alink  = this;                 // this button pressed
 				// check if there is a section that had same id as the button pressed
 				if ( jQuery( 'section [id*=' + idName + ']' ).length > 0 && jQuery( window ).width() >= 751 ) {

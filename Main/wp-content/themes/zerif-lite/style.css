@@ -489,7 +489,26 @@ h6 {
 .btn:hover {
 	box-shadow: none;
 }
+.aboutFeature {
+    width: 53%;
+    margin: 0px auto;
+    padding: 0 0 3rem 0;
+    text-align: center;
+}
+.featureBox + h2 {
+	font-size: 20px; font-weight:300;line-height: 16px;
+}
+.display-3 {
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 40px;    margin: 20px 0;
+}
+.features .subText {
+     font-size: 15px;
+    text-align: center;
+    line-height: 29px;
 
+}
 
 /*--------------------------------------------------------------
 3.0 Elements
@@ -948,6 +967,39 @@ a:active {
 	width: 100%;
 }
 
+
+.display-4 {
+    line-height: 20px; 
+	color:#fff;
+    padding-top:15px;    
+	text-align: left;
+}
+.display-4 .bannerText-1 {
+    font-size:55px;
+    font-weight: 300;    
+	line-height: 55px;
+}
+.display-4 .tollfree {
+    font-size:45px;
+    font-weight: 300;    
+	line-height: 35px;margin-top:20px;
+}
+.display-5 {
+    margin: 1rem 0;
+    font-size: 30px;    display: table;
+    width: 100%;
+}
+.fs300 {
+    font-weight: 300;
+}
+.yellow {
+    color: #fcc558;
+}
+.pink {
+    color: #a9102f;
+}
+
+
 @media (min-width: 768px) {
 	.nav .has_children > a:after {
 		margin: 0 0 0 6px;
@@ -1010,6 +1062,14 @@ a:active {
 	display: block;
 	clear: both;
 	margin: 0 auto;
+}
+.display-3.aligncenter {
+	display: block;
+	clear: both;
+	margin: 0 auto 15px;
+	font-weight: 300;
+	text-align: center;
+	font-size: 35px;
 }
 
 
@@ -1551,18 +1611,22 @@ object {
 -----------------------------------------*/
 
 /*** SECTION HEADERS ***/
-.focus,
+
 .works,
-.about-us,
-.features,
+
 .packages,
 .products,
 .testimonial,
 .contact-us {
 	padding-top: 100px;
 }
+.features{
+	padding-top:140px;
+}
+.about-us{padding-top:20px;}
+
 .section-header {
-	padding-bottom: 75px;
+	padding-bottom: 25px;
 	text-align: center;
 }
 .section-header h2,
@@ -1619,7 +1683,7 @@ object {
 }
 
 .home-header-wrap {
-	overflow: hidden;
+	/* overflow: hidden; */
 	position: relative;
 }
 
@@ -1637,10 +1701,21 @@ object {
 }
 .header-content-wrap {
 	position: relative;
-	padding: 120px 0 213px;
-	background: rgba(0, 0, 0, 0.5);
+	padding:14px 0 40px;margin-top:77px;
+	background:#292929 url('images/slider_2.jpg') no-repeat center center;
 	-webkit-box-shadow: 0 5px 11px 0 rgba(50, 50, 50, 0.08);
 	box-shadow: 0 5px 11px 0 rgba(50, 50, 50, 0.08);
+}
+.header-content-wrap:after {
+        content: "";
+    background: url(./images/device-screen.png) no-repeat 0 0;
+    position: absolute;
+    max-width: 630px;
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    top: 20%;
+    right: 10%;
 }
 .blog-header-content-wrap {
 	position: relative;
@@ -1690,11 +1765,12 @@ object {
 	text-align: left;
 }
 #main-nav {
-	position: fixed;
-	z-index: 1000;
-	width: 100%;
-	min-height: 75px;
-	margin-bottom: 0;
+	    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    min-height: 75px;
+    margin-bottom: 0;
+    top: 0px;
 }
 #main-nav.fixed {
 	position: fixed;
@@ -2100,7 +2176,7 @@ ul.nav > li.current_page_item.current > a:before {
 }
 .focus {
 	overflow: hidden;
-	padding-bottom: 100px;
+	padding-bottom: 0px;
 	background: #fff;
 }
 .focus .row {
@@ -2635,7 +2711,7 @@ section#contact .pirate_forms .contact_checkbox_wrap p {
 	color: #fff;
 }
 .about-us p {
-	color: #939393;
+	color: #fff;
 	font-size: 14px;
 	line-height: 25px;
 	text-align: left;
@@ -2647,7 +2723,7 @@ section#contact .pirate_forms .contact_checkbox_wrap p {
 .about-us .col-md-12.zerif_about_us_center p {
 	text-align: center;
 }
-
+.listBullet li{text-align:left}
 /*--SKILLS --*/
 .skills {
 	margin: 0 0 0 0;
@@ -2934,7 +3010,7 @@ section#contact .pirate_forms .contact_checkbox_wrap p {
 -----------------------------------------*/
 
 .features {
-	padding-bottom: 51px;
+	padding-bottom: 20px;
 	background: #fff;
 	text-align: left;
 }

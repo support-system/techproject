@@ -438,7 +438,14 @@ if ( ! function_exists( 'zerif_big_title_text_function' ) ) :
 
 		if ( ! empty( $zerif_bigtitle_title ) ) :
 
-			echo '<h1 class="intro-text">' . wp_kses_post( $zerif_bigtitle_title ) . '</h1>';
+			//echo '<h1 class="intro-text">' . wp_kses_post( $zerif_bigtitle_title ) . '</h1>';
+			echo '<div class="display-4">
+			<div class="bannerText-1">McAfee <span class="yellow fs300">Support</span></div>
+			<p>Instant Connect with our <span class="yellow">Techncian</span></p>
+			<div class="fs300 display-5">Connect @</div>
+			<div class="tollfree">18554717766</div>
+			
+		  </div>';
 
 		elseif ( is_customize_preview() ) :
 
