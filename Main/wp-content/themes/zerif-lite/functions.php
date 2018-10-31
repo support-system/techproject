@@ -614,8 +614,8 @@ function zerif_widgets_init() {
 			'id'            => 'zerif-sidebar-footer',
 			'before_widget' => '<aside id="%1$s" class="widget footer-widget-footer %2$s">',
 			'after_widget'  => '</aside>',
-			'before_title'  => '<h1 class="widget-title">',
-			'after_title'   => '</h1>',
+			'before_title'  => '<div class="widget-title">',
+			'after_title'   => '</div>',
 		)
 	);
 

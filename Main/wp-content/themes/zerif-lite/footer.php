@@ -16,7 +16,7 @@
 
 	<?php zerif_footer_widgets_trigger(); ?>
 
-	<div class="container">
+	<!--<div class="container">
 
 		<?php zerif_top_footer_trigger(); ?>
 
@@ -107,7 +107,7 @@
 
 			
 			
-			echo '</div>';
+			//echo '</div>';
 
 		}
 

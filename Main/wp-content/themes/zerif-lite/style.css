@@ -292,8 +292,8 @@ textarea {
 	color: #404040;
 	font-family: sans-serif;
 	font-size: 16px;
-	font-size: 1.6rem;
-	line-height: 1.5;
+	font-size: 1.3rem;
+	line-height: 1.5; font-weight:400;
 }
 h1,
 h2,
@@ -462,6 +462,7 @@ h6 {
 .yellow-btn {
 	background: #e7ac44;
 }
+
 .red-btn,
 .green-btn,
 .blue-btn,
@@ -1686,7 +1687,24 @@ object {
 	/* overflow: hidden; */
 	position: relative;
 }
+.footer-widget-wrap{padding: 20px;
+    background: #353232;}
+.footer-widget.col-xs-12.col-sm-6{min-height:0px;}
+.featurette-heading{
+    font-family: inherit;
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 300;
 
+}
+.mb2{    
+	margin: 0px auto 20px;
+}
+.subText{
+	font-size: 18px;
+	text-align: center;
+	line-height: 20px;
+}
 
 /*---------------------------------------
  **   Section: Home                  -----
@@ -2715,6 +2733,7 @@ section#contact .pirate_forms .contact_checkbox_wrap p {
 	font-size: 14px;
 	line-height: 25px;
 	text-align: left;
+	font-weight:400;
 }
 .about-us .column {
 	margin-bottom: 78px;
@@ -3567,8 +3586,8 @@ textarea {
 	margin-left: 0;
 	list-style: none;
 }
+	background: rgba(255,255,255,0.05); padding:10px 0 0;
 .footer-widget-wrap {
-	background: rgba(255,255,255,0.05);
 }
 .footer-widget-wrap .widget .widget-title {
 	color: #fff;
@@ -7259,11 +7278,8 @@ h6 {font-family: 'Open Sans', sans-serif;}
 #footer, .copyright{padding:0px!important}
 .blocks:after{content:"";clear:both;    display: block;}
 .sectionA ul {display: block;list-style: none;}
-.sectionA .widget li:before{display:none}
-.sectionA ul li{ 
-    font-size: 13px;
-    margin: 5px 0;
-   
-}
+.widget .sectionA li:before{display:none}
+.sectionA ul li{font-size: 13px;margin: 5px 0; display: inline-block;}
 .sectionA ul li a{display: block;list-style: none;}
+
 
