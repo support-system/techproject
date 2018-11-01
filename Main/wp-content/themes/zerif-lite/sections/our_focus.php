@@ -41,7 +41,7 @@ echo '<section class="focus ' . ( ( is_customize_preview() && ( ! isset( $zerif_
 				<section class="features">
 <div class="container p6">
 <h1 class="display-3 aligncenter">McAfee support | McAfee support chat </h1>
-<p class="subText">mcafee support team provides you support while you are facing issue to downlaod mcafee antivirus, mcafee activation issue, uninstallation mcafee antivirus, mcafee error code issues and mcafee virus removal service etc. They are always with you to provide the appropiate solution while you needed just you need to call toll free number 1800-202-4589 or connect with them via mcafee support chat, it is live chat process where you can connect with technician when unable to connect them via toll-free number.</p>
+<p class="subText">mcafee support team provides you support while you are facing issue to downlaod mcafee antivirus, mcafee activation issue, uninstallation mcafee antivirus, mcafee error code issues and mcafee virus removal service etc. They are always with you to provide the appropiate solution while you needed just you need to call toll free number 18554717766 or connect with them via mcafee support chat, it is live chat process where you can connect with technician when unable to connect them via toll-free number.</p>
 
 <div class="aboutFeature">
       <div class="display-3 pink">What we do ?</div>
@@ -56,21 +56,21 @@ echo '<section class="focus ' . ( ( is_customize_preview() && ( ! isset( $zerif_
             <h2>VIRUS REMOVAL
 
 </h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <p>Virus removal Service will make your device faster & Protect your data from hacking.</p>
             <p><a class="buttonBox buttonBox-primary" href="#" role="button">View details »</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
            <div class="icon-2 featureBox"></div>
             <h2>DIAGNOSIS &amp; REPAIR
 </h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <p>one click you can diagnose your device and repair and you will get device protection.</p>
             <p><a class="buttonBox buttonBox-primary" href="#" role="button">View details »</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <div class="icon-3 featureBox"></div>
             <h2>SETUP &amp; INSTALL
 </h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit.</p>
+            <p>No need to frustrate call our expert team to Setup and installation your antivirus.</p>
             <p><a class="buttonBox buttonBox-primary" href="#" role="button">View details »</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
