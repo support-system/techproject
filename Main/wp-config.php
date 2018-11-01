@@ -33,7 +33,7 @@
 
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '54.202.249.196');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
