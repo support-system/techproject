@@ -40,11 +40,11 @@ echo '<section class="focus ' . ( ( is_customize_preview() && ( ! isset( $zerif_
 				?>
 				<section class="features">
 <div class="container p6">
-<h1 class="display-3 aligncenter">McAfee Support | McAfee Support chat | How to install McAfee antivirus?</h1>
+<h1 class="display-3 aligncenter ">McAfee Support | McAfee Support chat | How to install McAfee antivirus?</h1>
 <p class="subText"><b>McAfee Support</b> team provides you Support while you are facing issue to Downlaod McAfee Antivirus, <a href="http://activate-support.us/how-to-activate-mcafee-antivirus/">mcafee activation issue</a>, <b>Uninstallation McAfee antivirus</b>, McAfee Error Code issues and McAfee Virus Removal Service etc. They are always with you to provide the appropiate solution while you needed just you need to call Toll Free Number <b>18554717766</b> or connect with them via McAfee Support Chat, it is live chat process where you can connect with Technician when unable to connect them via Toll-Free Number.</p>
 
 
-<div class="container aligncenter">
+<div class="container aligncenter divBox">
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
