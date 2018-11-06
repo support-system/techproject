@@ -23,16 +23,23 @@
 
 
 
-//define('DB_NAME', 'rahultest');
-//define('DB_USER', 'root');
-//define('DB_PASSWORD', '');
+define('DB_NAME', 'rahultest');
+define('DB_USER', 'root');
+define('DB_PASSWORD', '');
 
 
- define('DB_NAME', 'wp_myblog');
- define('DB_USER', 'mohit');
- define('DB_PASSWORD', 'Password@123');
+ // define('DB_NAME', 'wp_myblog');
+ // define('DB_USER', 'mohit');
+ // define('DB_PASSWORD', 'Password@123');
+
+
+
+
+/** MySQL hostname */
+//define('DB_HOST', '54.202.249.196');
 
 define('DB_HOST', 'localhost');
+
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
