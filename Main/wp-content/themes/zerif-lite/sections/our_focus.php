@@ -40,14 +40,10 @@ echo '<section class="focus ' . ( ( is_customize_preview() && ( ! isset( $zerif_
 				?>
 				<section class="features">
 <div class="container p6">
-<h1 class="display-3 aligncenter">McAfee support | McAfee support chat </h1>
-<p class="subText">mcafee support team provides you support while you are facing issue to downlaod mcafee antivirus, mcafee activation issue, uninstallation mcafee antivirus, mcafee error code issues and mcafee virus removal service etc. They are always with you to provide the appropiate solution while you needed just you need to call toll free number 18554717766 or connect with them via mcafee support chat, it is live chat process where you can connect with technician when unable to connect them via toll-free number.</p>
+<h1 class="display-3 aligncenter">McAfee Support | McAfee Support chat | How to install McAfee antivirus?</h1>
+<p class="subText"><b>McAfee Support</b> team provides you Support while you are facing issue to Downlaod McAfee Antivirus, <a href="http://activate-support.us/how-to-activate-mcafee-antivirus/">mcafee activation issue</a>, <b>Uninstallation McAfee antivirus</b>, McAfee Error Code issues and McAfee Virus Removal Service etc. They are always with you to provide the appropiate solution while you needed just you need to call Toll Free Number <b>18554717766</b> or connect with them via McAfee Support Chat, it is live chat process where you can connect with Technician when unable to connect them via Toll-Free Number.</p>
 
-<div class="aboutFeature">
-      <div class="display-3 pink">What we do ?</div>
-      <p class="subText">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p>
-    </div>
-	</div>
+
 <div class="container aligncenter">
         <!-- Three columns of text below the carousel -->
         <div class="row">
