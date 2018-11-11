@@ -619,6 +619,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 					'function'    => array( $this, 'install_plugins_page' ), // Callback.
 				)
 			);
+			var_dump($args);
 
 			$this->add_admin_menu( $args );
 		}
