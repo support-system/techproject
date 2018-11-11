@@ -1737,11 +1737,26 @@ object {
 }
 .blog-header-content-wrap {
 	position: relative;
-	padding: 170px 0 90px;
-	background-color: rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 0 5px 11px 0 rgba(50, 50, 50, 0.08);
-	box-shadow: 0 5px 11px 0 rgba(50, 50, 50, 0.08);
+	padding: 8% 0 4%;
+	background-color: #36000b;
 }
+.blog-header-content-wrap .intro-text:before {
+    content: "";
+    width: 200px;
+    height: 84px;
+    background:url('images/mcafee-logo.png') no-repeat 0 0;
+    display: block;
+    position: absolute;
+}
+.blog-header-content-wrap .intro-text,.blog-header-subtitle{width: 500px;
+       width: 500px;
+    font-size: 34px;
+    line-height: 53px;
+    text-align: left;
+    margin: 0px auto 0 50%;
+    text-transform: capitalize;
+	}
+.blog-header-content-wrap .intro-text + .blog-header-subtitle{color: #d09f48;font-size:40px}
 .blog-header-subtitle {
 	margin-bottom: 10px;
 	color: #fff;
@@ -7321,4 +7336,6 @@ h6 {font-family: 'Open Sans', sans-serif;}
     margin-bottom: 21px;
 }
 .header-content-wrap, .blog-header-content-wrap{min-height:120px;}
+.navbar-brand{height:55px}
+.entry-content .blocks li{width:100%}
 }
