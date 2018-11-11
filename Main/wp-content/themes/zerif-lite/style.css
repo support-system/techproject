@@ -7320,4 +7320,5 @@ h6 {font-family: 'Open Sans', sans-serif;}
     font-size: 26px !important;
     margin-bottom: 21px;
 }
+.header-content-wrap, .blog-header-content-wrap{min-height:120px;}
 }
