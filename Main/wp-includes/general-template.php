@@ -1218,6 +1218,7 @@ function wp_title( $sep = '&raquo;', $display = true, $seplocation = '' ) {
 	 * @param string $sep Title separator.
 	 * @param string $seplocation Location of the separator (left or right).
 	 */
+	 
 	$title = apply_filters( 'wp_title', $title, $sep, $seplocation );
 
 	// Send it out
