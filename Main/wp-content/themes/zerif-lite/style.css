@@ -7299,9 +7299,25 @@ h6 {font-family: 'Open Sans', sans-serif;}
 	.focus, .works, .about-us, .features, .packages, .products, .testimonial, .contact-us{padding-top:20px;padding-bottom:20px}	
 }
 @media (max-width: 740px) {
-	.header-content-wrap, .blog-header-content-wrap{padding:0px;}
-	.header-content-wrap:after{display:none}
-	.display-4 .bannerText-1 {font-size: 35px;    margin-bottom: 20px;}
-	.focus, .works, .about-us, .features, .packages, .products, .testimonial, .contact-us{padding-top:20px;padding-bottom:20px}	
 	.header-content-wrap{margin-top:0px 	}
+	.widget li{padding-left:0px; padding-right:10px;}
+	.textwidget  .alignright{margin-left:0px;}
+	.footer-widget-wrap .widget{padding-bottom:0px;float:left;}
+}
+@media (max-width: 640px) {
+	.display-3.aligncenter{font-size: 25px;    line-height: 40px;}
+}
+@media (max-width: 480px) {
+.featureBox + h2 {font-weight: 600;font-size: 20px !important;}
+.container {padding: 0px 5px;}
+.features .subText{text-align:justify}
+.footer-widget.col-xs-12.col-sm-6{padding:0px}
+.featurette-heading {
+    font-family: inherit;
+    font-size: 30px;
+    line-height: 37px;
+    font-weight: 300;
+    font-size: 26px !important;
+    margin-bottom: 21px;
+}
 }
