@@ -1737,11 +1737,18 @@ object {
 }
 .blog-header-content-wrap {
 	position: relative;
-	padding: 170px 0 90px;
-	background-color: rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 0 5px 11px 0 rgba(50, 50, 50, 0.08);
-	box-shadow: 0 5px 11px 0 rgba(50, 50, 50, 0.08);
+	padding: 8% 0 4%;
+	background-color: #36000b;
 }
+.blog-header-content-wrap .intro-text,.blog-header-subtitle{width: 500px;
+       width: 500px;
+    font-size: 34px;
+    line-height: 53px;
+    text-align: left;
+    margin: 0px auto 0 50%;
+    text-transform: capitalize;
+	}
+.blog-header-content-wrap .intro-text + .blog-header-subtitle{color: #d09f48;font-size:40px}
 .blog-header-subtitle {
 	margin-bottom: 10px;
 	color: #fff;
@@ -7262,12 +7269,11 @@ h6 {font-family: 'Open Sans', sans-serif;}
 .blocks li{list-style:none;display:inline-block;color: #fff;background:#333; position:relative;padding:20px;float:left;border-right:1px solid;}
 .blocks.checklist{margin:10px 0 0 30px}
 .blocks.checklist li{    list-style: none;
-    display:block;
+    display: inline-block;
     color: #333;
     position: relative;
     padding: 0;
     background: none;
-	    float: unset;
     line-height: 29px;
     border: none;}
 .blocks.checklist li:before{ content: "\f00c";
@@ -7322,4 +7328,6 @@ h6 {font-family: 'Open Sans', sans-serif;}
     margin-bottom: 21px;
 }
 .header-content-wrap, .blog-header-content-wrap{min-height:120px;}
+.navbar-brand{height:55px}
+.entry-content .blocks li{width:100%}
 }
