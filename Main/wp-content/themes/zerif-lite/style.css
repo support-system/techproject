@@ -1743,7 +1743,7 @@ object {
 
 .blog-header-content-wrap .intro-text:before {
     content: "";
-    width: 200px;
+    width: 302px;
     height: 84px;
     background:url('images/mcafee-logo.png') no-repeat 0 0;
     display: block;
