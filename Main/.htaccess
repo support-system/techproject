@@ -1,5 +1,6 @@
 
 # BEGIN WordPress
+<<<<<<< HEAD
 <IfModule mod_rewrite.c>
 RewriteEngine On
 #RewriteCond %{HTTP_HOST} !^activate-support.us [NC]
@@ -10,5 +11,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
+=======
+>>>>>>> 77f337f87e8b10fb988e8c022bfa6f5dd78e7112
 
 # END WordPress
