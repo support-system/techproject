@@ -48,7 +48,9 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 define('FS_METHOD', 'direct');
-
+/*define('MULTISITE', true);*/
+define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
+define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
 
 /**#@+
  * Authentication Unique Keys and Salts.
