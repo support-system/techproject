@@ -1737,7 +1737,7 @@ object {
 }
 .blog-header-content-wrap {
 	position: relative;
-	padding: 8% 0 4%;
+	padding:10% 0 2%;
 	background-color: #36000b;
 }
 
@@ -1748,6 +1748,8 @@ object {
     background:url('images/mcafee-logo.png') no-repeat 0 0;
     display: block;
     position: absolute;
+	    left: 20%;
+    top: 50%;
 }
 
 .blog-header-content-wrap .intro-text,.blog-header-subtitle{width: 500px;
@@ -7308,12 +7310,27 @@ h6 {font-family: 'Open Sans', sans-serif;}
 	.display-3.aligncenter{line-height: 50px;}
 	.container{padding:0px}
 	.display-4{padding:3% 0}
+	.blog-header-content-wrap .intro-text:before{    left: 4%;
+    top: 25%;}
+	.blog-header-content-wrap .intro-text, .blog-header-subtitle{margin: 0px auto 0 45%;}
+	
+}
 }
 @media (max-width: 992px) {
 	.header-content-wrap, .blog-header-content-wrap{padding:0px;}
 	.header-content-wrap:after{display:none}
 	.display-4 .bannerText-1 {font-size: 35px;    margin-bottom: 20px;}
 	.focus, .works, .about-us, .features, .packages, .products, .testimonial, .contact-us{padding-top:20px;padding-bottom:20px}	
+	.blog-header-content-wrap .intro-text, .blog-header-subtitle {
+    width: 500px;
+    width: 430px;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: left;
+    margin: 0px auto 0 45%;
+    text-transform: capitalize;
+}
+.blog-header-content-wrap{padding:8% 0 2%}
 }
 @media (max-width: 740px) {
 	.header-content-wrap{margin-top:0px 	}
@@ -7321,12 +7338,17 @@ h6 {font-family: 'Open Sans', sans-serif;}
 	.textwidget  .alignright{margin-left:0px;}
 	.footer-widget-wrap .widget{padding-bottom:0px;float:left;}
 	.featureImage{margin-top:0px}
-}
+	.blog-header-content-wrap{margin-top:80px}
+	
 @media (max-width: 640px) {
 	.display-3.aligncenter{font-size: 25px;    line-height: 40px;}
 }
 @media (max-width: 480px) {
 .featureBox + h2 {font-weight: 600;font-size: 20px !important;}
+h3 {
+    font-size: 24px;
+    line-height: 34px;
+}
 .container {padding: 0px 5px;}
 .features .subText{text-align:justify}
 .footer-widget.col-xs-12.col-sm-6{padding:0px}
