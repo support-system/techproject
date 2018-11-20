@@ -16,6 +16,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+<meta name= "geolaction" content="USA,Can">
+<meta name="revist-after" content="2days">
+<meta name="robots" content="index, follow"/>
 
 <?php wp_head(); ?>
 
